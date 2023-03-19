@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;900&display=swap');
+
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.form-container{
+    background-color: #83b3dd;
+    padding: 20px;
+    width: 400px;
+    margin: 150px auto;
+}
+
+
+form{
+    padding: 20px;
+}
+
+form h3{
+    text-align: center;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+
+form .input-conteiner {
+    position: relative;
+    margin: 10px;
+}
+
+
+
+form .input-conteiner input, input[type="submit"]{
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+}
+
+
+form .input-conteiner input{
+    border: 1px solid #fffff9;
+    color: #0a0a0a;
+    padding: 20px;
+    padding-right: 55px;
+}
+
+
+form .input-conteiner input::placeholder{
+    color: black;
+}
+
+
+img {
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 9px);
+}
+
+.options-container .checkbox-conteiner,a {
+    display: inline-block;
+    padding: 2px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.checkbox-conteiner,a{
+    color: black;
+}
+
+.options-conteiner,a{
+    padding-left: 40px;
+    margin: 2px;
+}
+
+
+
+
+
